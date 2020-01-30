@@ -1,0 +1,300 @@
+.wrapper{
+  background-color: #eee;
+}
+
+.fixed-img-left{
+  position: fixed;
+  left:-5rem;
+}
+
+.fixed-img-right{
+  position: fixed;
+  right:-5rem;
+  bottom: 0rem;
+}
+
+.fixed-img-in{
+  width:40%;
+  height:auto;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.kingasinnen{
+  width:100%;
+  height: 40%;
+  text-align: center;
+  background-repeat:no-repeat;
+  background-size:  contain;
+  box-sizing: border-box;
+  padding:40px 0;
+}
+.main{
+  font-family: kazuraki-sp2n, serif;
+  padding:0 10% 10% 10%;
+
+}
+
+.sentence{
+  font-size: 2rem;
+  font-weight:bold;
+  font-family: kazuraki-sp2n, serif;
+  text-shadow: 1px 1px 12px #333;
+  padding:10% 5%;
+  white-space: nowrap;
+}
+
+.kadomatsu{
+  width:10%;
+  height:auto;
+}
+.akeome{
+  display: block;
+  margin-bottom:28px;
+}
+
+.turn{
+  transform: scale(-1, 1);
+  display: inline;
+}
+.greet-kadomatsu{
+  display:flex;
+  justify-content:space-around;
+  align-items:center; 
+  width:100%;
+}
+.center{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:40px ;
+}
+
+.center-title{
+  font-size:2rem;
+  margin:40px 0;
+}
+
+.omikuzi{
+  height:400px;
+  width:300px;
+}
+
+
+.btn{
+  padding:12px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(187, 116, 116, 0.28);
+  margin-top:60px;
+  font-weight: bold;
+
+}
+.kuji {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background: linear-gradient(#ac8b06 0%, #c0ae6c 100%);
+}
+
+.kuji:active {
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.greet{
+  text-align: center;
+  position: relative;
+}
+.greet::before{
+  position: absolute;
+  content: "";
+  width: 10%;
+  height: 10%;
+  letter-spacing: .2rem;
+  top: 0;
+  right: 0;
+  border-top: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+.greet::after{
+  position: absolute;
+  content: "";
+  width: 10%;
+  height: 10%;
+  letter-spacing: .2rem;
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+
+.tweet{
+  display:inline;
+  background: linear-gradient(rgb(13, 128, 216) 0%, rgb(108, 182, 238) 100%);
+}
+.twitter{
+  text-align: center;
+  margin-top:60px;
+}
+.fa-twitter{
+  color: #fff;
+  clear: both;
+}
+
+.tweet-link{
+  text-decoration: none;
+  color:#fff;
+  z-index: 20;
+}
+.greet-upper-sentence-wrapper{
+
+}
+.greet-upper-sentence{
+  padding: 2rem 1rem;
+  position: relative;
+  font-size: 2rem;
+}
+.greet-upper-sentence::before{
+  position: absolute;
+  content: "";
+  width: 10%;
+  height: 10%;
+  letter-spacing: .2rem;
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+
+.greet-upper-sentence::after{
+  position: absolute;
+  content: "";
+  width: 10%;
+  height: 10%;
+  letter-spacing: .2rem;
+  bottom: 0;
+  left: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+
+.greet-section{
+  position: relative;
+  margin-top: 100px;
+  padding:1rem;
+  background: #fff;
+
+}
+
+.greet-contents{
+  position: relative;
+  display: block;
+  padding:1rem;
+  font-weight: bold;
+  border:1px solid #ebb94d;
+}
+.greet-contents > p{
+  letter-spacing: .4rem;
+  font-size: 1rem;
+}
+.margin-top{
+  margin-top:120px;
+}
+
+.greet-title {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1rem;
+  text-align: center;
+  margin-bottom:20px;
+  text-indent: 1rem;
+}
+
+.fade-item{
+  opacity: 0;
+}
+
+.greet-sentence{
+  margin-bottom: 1rem;
+}
+
+/* @keyframes draw {
+  0%{
+    stroke-dashoffset: 1900;
+    fill: none;
+    stroke:black;
+  }
+  60% {
+    stroke-dashoffset: 0;
+    fill: #42AFE3;
+  }
+  70%{
+    stroke-dashoffset: 0;
+    fill:transparent;
+  }
+  100%{
+    stroke-dashoffset: 0;
+    background-image: url(./image/rat-reiwa.png);
+    fill:transparent;
+  }
+} */
+
+.footer{
+  position: relative;
+  animation-name: draw;
+  /* animation-duration: 1s; */
+  /* animation-timing-function: linear; */
+  /* animation-delay: 3s; */
+  /* animation-iteration-count: 1; */
+  /* animation-direction: normal; */
+  stroke-width: 1px;
+  stroke-dasharray: 1900;
+  stroke-dashoffset: 1900;
+  animation: draw 5s linear forwards;
+  background:no-repeat ;
+  background-size: contain;
+  height:250px;
+  width:100%;
+  bottom:0;
+}
+
+.svg{
+  position:absolute;
+  display: inline;
+  height:500px;
+  width:130vh;
+  box-sizing: border-box;
+  /* bottom:0 !important; */
+  /* height:100%;
+  width:100%; */
+}
+
+.g{
+  position:absolute;
+  height:250px;
+  width:100%;
+}
+
+.f-wrapper{
+  margin-top:200px;
+  padding:0 0 300px 0;
+}
+
+/* .a{
+  position: absolute;
+  height:100px;
+  width:1000px;
+} */
+@media (max-width: 600px){
+  .sentence{
+    font-size: 1.5rem;
+  }
+  .margin-top{
+    margin-top: 60px;
+  }
+}

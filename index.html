@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <script src="scroll.js"></script>
+
+
+  <link rel="icon" type="image/png" href="/image/favicon.ico">
+</head>
+<body>
+  <div class="wrapper">
+  <div class="fixed-img">
+    <img src="./image/gold.png" class="fixed-img-in fixed-img-left fade-item" height="500" width="500">
+    <img src="./image/gold.png" class="fixed-img-in fixed-img-right turn fade-item" height="500" width="500">
+  </div>
+
+  <header>
+    <img src="./image/2020.png" alt="2020" class="kingasinnen fade-item">
+  </header>
+
+
+  <div class="main">
+    <section class="greet-kadomatsu margin-top">
+      <img src="./image/kadomatsu.png" alt="kadomatsu" class="kadomatsu fade-item" height="100">
+      <h1 class="sentence fade-item"><span class="akeome">あけましておめでとうございます</span>今年もよろしくお願いいたします</h1>
+      <img src="./image/kadomatsu.png" alt="kadomatsu" class="kadomatsu turn fade-item">
+    </section>
+
+    <section class="greet-section margin-top">
+      <div class="greet-contents">
+        <h1 class="greet-title">新年の挨拶</h1>
+          <p class="greet-sentence">2019年はプログラミング含め新たなことに多数チャレンジできた一年でした</p>
+          <p>今年の令和2年は昨年チャレンジして培ったものをより磨いて身に着けられるように、
+          また今より更にステップアップできるように、技術や経験を身に着ける年にしていきます。</p>
+      </div>
+    </section>
+
+    <section class="center margin-top">
+      <h1 class = center-title>おみくじ</h1>
+      <img src="./image/omikuji.png" name="kuji" class="omikuzi">
+      <input type="button" value="おみくじを引く" class="btn kuji" onclick="omikuji()">
+    </section>
+
+    <aside class="greet margin-top">
+      <div class="greet-upper-sentence-wrapper">
+        <p class="greet-upper-sentence">2020年もよろしくお願い致します</p>
+      </div>
+    </aside>
+    <aside class="twitter margin-top">
+      <form class="tweet btn">
+        <a href="http://twitter.com/share?url=https://projects.shibajuku.net/nenga/2020/aki/&text=木下滉貴/WEB年賀状" target="_blank" class="tweet-link">ツイート
+          <i class="fab fa-twitter " ></i>
+        </a>
+      </form>
+    </aside>
+    <!-- <section class="f-wrapper">
+      <div class="footer">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"
+          viewBox="0 0 40 80" class="svg" width="400" height="200"
+        >
+          <g transform="translate(0,0) scale(0.65,0.1)" class="g">
+            <path class="a" d="M431.793,340.539c-22.579-24.188-46.288-56.09-65.735-96.994c-2.253-4.748-4.498-9.567-6.592-14.55
+              c-13.578-31.659-24.589-68.388-30.937-110.658l-1.53-10.289H184.994l-1.522,10.289c-6.35,42.348-17.36,79.077-30.945,110.736
+              c-2.166,4.984-4.34,9.81-6.584,14.472c-19.769,41.548-43.879,73.693-66.709,98.038c-21.049,22.343-41.061,38.094-55.769,48.14
+              c-7.314,4.984-13.341,8.601-17.438,10.932c-2.009,1.201-3.618,2.009-4.662,2.566l-1.122,0.565L0,403.952h31.502h13.586h421.826
+              h8.036H512C511.757,403.787,473.584,385.305,431.793,340.539z M328.528,263.471l-36.329-44.279l-36.242,44.2l-36.242-44.2
+              l-36.243,44.2l-12.863-15.672c15.108-33.033,27.57-71.441,35.042-115.563h100.777c7.393,44.122,19.848,82.53,34.955,115.563
+              L328.528,263.471z" >
+            </path>
+          </g>
+        </svg>
+      </div>
+    </section> -->
+  </div></div>
+  </div>
+
+</body>
+
+</html>
