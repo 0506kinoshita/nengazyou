@@ -291,11 +291,21 @@
   height:100px;
   width:1000px;
 } */
-@media (max-width: 600px){
+@media (max-width: 700px){
   .sentence{
     font-size: 1.5rem;
   }
   .margin-top{
     margin-top: 60px;
+  }
+  .fixed-img-in{
+    width:60%;
+  }
+  .fixed-img-right{
+    bottom:3rem;
+
+  }
+  .fixed-img-left{
+    top:3rem;
   }
 }
