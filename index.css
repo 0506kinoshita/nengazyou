@@ -293,7 +293,7 @@
 } */
 @media (max-width: 700px){
   .sentence{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .margin-top{
     margin-top: 60px;
@@ -307,5 +307,17 @@
   }
   .fixed-img-left{
     top:3rem;
+  }
+  .greet-contents h{
+    font-weight: bold;
+  }
+  .greet-contents p{
+    font-weight: 500;
+  }
+  .greet-title{
+    font-size: 1rem;
+  }
+  .greet-upper-sentence{
+    font-size: 1rem;
   }
 }
